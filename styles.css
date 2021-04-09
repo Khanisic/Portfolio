@@ -1,0 +1,162 @@
+/* ##030027 - Blue
+#E2E868 - Yellow 
+font-family: 'Roboto', sans-serif;
+font-family: 'Yeseva One', cursive;*/
+
+.top {
+    background-color: #030027;
+    height: 100vh;
+
+}
+
+.yellow {
+    color: #E2E868;
+    font-family: 'Yeseva One', cursive;
+}
+h1.yellow{
+    font-size: 4rem;
+}
+
+.white {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.margin-white-sides {
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+.margin-white-left{
+    border-left: 2px solid white;
+}
+.about-p{
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    padding: 10%;
+    font-size: 1.5rem;
+}
+.name {}
+
+.upcoming {}
+
+.top-box-div {
+    height: 100vh;
+}
+
+.top-box {
+    position: relative;
+    top: 50vh;
+    left: 5vh;
+}
+
+.about-box-div {
+    height: 100vh;
+}
+
+.about-box {
+    position: relative;
+    top: 20vh;
+    left: 5vh;
+}
+.skills-box-div {
+    height: 100vh;
+}
+
+.skills-box {
+    position: relative;
+    top: 4vh;
+    left: 1vh;
+}
+
+.stats i{
+    font-size: 3rem;
+}
+.stats p{
+    color: #E2E868;
+    
+}
+.stats{
+    text-align: left;
+    position: relative;
+    top: 2vh;
+}
+.fa{
+    color: #E2E868;
+    font-size: 2rem;
+}
+.fa-icon{
+    font-size: 2rem;
+}
+.inner-stat{
+    padding-left: 2%;
+}
+.update{
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.1rem;
+    position: relative;
+    top: 10vh;;
+}
+.small-stat{
+    color: white;
+    font-family: 'Yeseva One', cursive;
+    padding: 2%;
+}
+
+.slider-outer{
+    position: relative;
+    display: flow-root;
+    padding: 0.5%;
+}
+.slider{
+    font-size: 25px;
+    font-weight: 900;
+    float: left;
+}
+input[type='range'] {
+    overflow: hidden;
+    width: 50%;
+    -webkit-appearance: none;
+    background: linear-gradient(to left, #000000 0%, #E2E868 0%, #030027 100%, #fff 100%);
+    height: 20px;
+    border-radius: 25px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 20px;
+    -webkit-appearance: none;
+    height: 20px;
+    cursor: ew-resize;
+    background: #fff;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+
+.slider-input{
+    vertical-align: middle;
+    float: right;
+    width: 50%;
+    margin-right: 5%;
+}
+
+label{
+    color: #E2E868;
+    font-family: 'Yeseva One', cursive;
+}
+.form-label-contact{
+    color: #030027;
+}
+.form-input-contact{
+    background-color: #E2E868;
+    border: none;
+}
+.form-contact{
+
+}
+.btn-contact{
+    background-color: #E2E868; color: #030027; font-family: 'Yeseva One', cursive;
+}
+form{
+    text-align: center; width: 60%; position: relative; left: 25vh; top: 20vh;
+}
