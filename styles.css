@@ -12,6 +12,7 @@ font-family: 'Yeseva One', cursive;*/
 .yellow {
     color: #E2E868;
     font-family: 'Yeseva One', cursive;
+    text-decoration: none;
 }
 h1.yellow{
     font-size: 4rem;
@@ -20,6 +21,7 @@ h1.yellow{
 .white {
     color: white;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 .margin-white-sides {
