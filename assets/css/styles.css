@@ -298,6 +298,8 @@ img{
     padding: 1rem;
     border-radius: 0.5rem;
     font-weight: var(--font-medium);
+    border: none;
+    font-family: 'Poppins';
 }
 .button:hover{
     background-color: var(--first-color-alt);
